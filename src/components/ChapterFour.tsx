@@ -13,7 +13,7 @@ export function ChapterFour() {
         >
           <div className="flex items-center gap-4 mb-8">
             <span className="text-5xl">✅</span>
-            <h2 className="text-4xl md:text-5xl bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
+            <h2 className="text-4xl md:text-5xl bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent" style={{ fontFamily: 'Audiowide, sans-serif', letterSpacing: '0.03em' }}>
               BAB IV - PENUTUP
             </h2>
           </div>
@@ -32,19 +32,17 @@ export function ChapterFour() {
             </div>
             <div className="text-gray-300 space-y-4">
               <p>
-                Cyber sabotage adalah ancaman nyata dan serius bagi sistem dan data di era digital modern. Melalui analisis teori cybercrime, cyberlaw, dan studi kasus yang telah dijabarkan dalam paper ini, dapat disimpulkan bahwa:
+                Cyber sabotage merupakan ancaman nyata yang terus berkembang seiring dengan meningkatnya ketergantungan terhadap sistem dan teknologi digital. Berdasarkan teori cybercrime, cyberwar, dan studi kasus yang telah dibahas dalam paper ini, dapat disimpulkan beberapa poin utama.
               </p>
-              <ol className="list-decimal list-inside space-y-3 ml-4">
-                <li>
-                  Cyber sabotage merupakan bentuk kejahatan komputer yang kompleks dengan motif yang beragam, mulai dari dendam pribadi, persaingan bisnis, hingga tujuan ideologis dan terorisme siber.
-                </li>
-                <li>
-                  Penyebab utama keberhasilan cyber sabotage adalah kelemahan dalam manajemen akses, kurangnya monitoring, edukasi keamanan yang minim, dan tidak adanya rencana disaster recovery yang memadai.
-                </li>
-                <li>
-                  Penanggulangan cyber sabotage memerlukan pendekatan holistik yang mencakup pencegahan proaktif, deteksi dini, respons cepat, dan penegakan hukum berbasis cyberlaw yang kuat.
-                </li>
-              </ol>
+               <p>
+                Pertama, cyber sabotage menjadi ancaman serius bagi keberlangsungan sistem informasi dengan motif yang beragam, mulai dari kepentingan pribadi, persaingan bisnis, hingga ideologi dan terorisme siber. Ancaman ini dapat menimbulkan kerugian yang signifikan baik dari sisi operasional, finansial, maupun reputasi.
+              </p>
+              <p>
+                Kedua, penyebab utama keberhasilan cyber sabotage umumnya berasal dari kelemahan dalam manajemen keamanan siber, seperti kurangnya monitoring, minimnya edukasi keamanan, serta tidak adanya rencana disaster recovery yang memadai. Kondisi tersebut menjadikan sistem rentan terhadap serangan yang bersifat terencana maupun insidental.
+              </p>
+              <p>
+                Ketiga, penanggulangan cyber sabotage memerlukan pendekatan yang bersifat holistik, mencakup upaya pencegahan proaktif, deteksi dini terhadap ancaman, respons insiden yang cepat, serta penegakan hukum siber yang tegas dan konsisten.
+              </p>
             </div>
           </motion.div>
 
@@ -147,7 +145,7 @@ export function ChapterFour() {
 
           {/* Referensi */}
           <motion.div
-            className="p-6 bg-gradient-to-r from-green-500/10 to-emerald-500/10 border border-green-500/20 rounded-xl"
+             className="p-6 bg-gradient-to-r from-green-500/10 to-emerald-500/10 border border-green-500/20 rounded-xl"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -166,3 +164,4 @@ export function ChapterFour() {
     </section>
   );
 }
+
