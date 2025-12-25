@@ -4,7 +4,7 @@ import { BookOpen, Target, FileText } from 'lucide-react';
 export function ChapterOne() {
   return (
     <section id="bab1" className="min-h-screen py-20 px-4">
-      <div className="max-w-4xl mx-auto">
+       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -13,7 +13,7 @@ export function ChapterOne() {
         >
           <div className="flex items-center gap-4 mb-8">
             <span className="text-5xl">📋</span>
-            <h2 className="text-4xl md:text-5xl bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
+              <h2 className="text-4xl md:text-5xl bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent" style={{ fontFamily: 'Audiowide, sans-serif', letterSpacing: '0.03em' }}>
               BAB I - PENDAHULUAN
             </h2>
           </div>
