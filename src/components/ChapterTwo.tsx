@@ -13,7 +13,7 @@ export function ChapterTwo() {
         >
           <div className="flex items-center gap-4 mb-8">
             <span className="text-5xl">📚</span>
-            <h2 className="text-4xl md:text-5xl bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            <h2 className="text-4xl md:text-5xl bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent" style={{ fontFamily: 'Audiowide, sans-serif', letterSpacing: '0.03em' }}>
               BAB II - LANDASAN TEORI
             </h2>
           </div>
@@ -142,3 +142,4 @@ export function ChapterTwo() {
     </section>
   );
 }
+
