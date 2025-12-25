@@ -21,18 +21,18 @@ export function Footer() {
               <FileText className="w-8 h-8 text-white" />
             </motion.div>
             <h3 className="text-2xl bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent mb-2">
-              Paper Ilmiah: Cyber Sabotage
+          
             </h3>
           </div>
 
           <div className="flex flex-wrap justify-center gap-6 mb-8 text-gray-400">
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
-              <span>Penulis: izaki, fajar</span>
+              <span>MITRA : Zaky Arman Maulana (2413030062), Muhammad Fajr Ramadhan (2413030104), Mochammad Pramudya Mutaqin (2413030048), Dafa Raihan Putra (2413030058), Davina Maya Isabela (2413030067), Adinda Rahmayani Putri (2413030075) </span>
             </div>
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
-              <span>Tahun: 2025</span>
+              <span> 2025, 11, 25</span>
             </div>
           </div>
 
@@ -43,10 +43,11 @@ export function Footer() {
           </div>
 
           <div className="text-sm text-gray-500">
-            <p>&copy; 2025 Cyber Sabotage Research Paper. All rights reserved.</p>
+            <p>&copy; 2025 Cyber Sabotage Research Paper. Sistem Informasi. Universitas Nusantara PGRI Kediri.</p>
           </div>
         </motion.div>
       </div>
     </footer>
   );
 }
+
