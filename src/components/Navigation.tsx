@@ -33,7 +33,8 @@ export function Navigation({
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <motion.div
-              className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent"
+              className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent text-lg font-bold"
+              style={{ fontFamily: 'Audiowide, sans-serif', letterSpacing: '0.05em' }}
               whileHover={{ scale: 1.05 }}
             >
               Cyber Sabotage
@@ -50,6 +51,7 @@ export function Navigation({
                       ? 'bg-gradient-to-r from-indigo-600 to-purple-600 text-white'
                       : 'text-gray-400 hover:text-white'
                   }`}
+                  style={{ fontFamily: 'Audiowide, sans-serif', letterSpacing: '0.03em' }}
                 >
                   {item.label}
                 </button>
@@ -86,6 +88,7 @@ export function Navigation({
                       ? 'bg-gradient-to-r from-indigo-600 to-purple-600 text-white'
                       : 'text-gray-400 hover:text-white hover:bg-white/5'
                   }`}
+                  style={{ fontFamily: 'Audiowide, sans-serif', letterSpacing: '0.03em' }}
                 >
                   {item.label}
                 </button>
@@ -97,3 +100,4 @@ export function Navigation({
     </>
   );
 }
+
