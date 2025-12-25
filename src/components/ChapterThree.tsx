@@ -13,7 +13,7 @@ export function ChapterThree() {
         >
           <div className="flex items-center gap-4 mb-8">
             <span className="text-5xl">🔍</span>
-            <h2 className="text-4xl md:text-5xl bg-gradient-to-r from-pink-400 to-red-400 bg-clip-text text-transparent">
+            <h2 className="text-4xl md:text-5xl bg-gradient-to-r from-pink-400 to-red-400 bg-clip-text text-transparent" style={{ fontFamily: 'Audiowide, sans-serif', letterSpacing: '0.03em' }}>
               BAB III - PEMBAHASAN DAN ANALISA KASUS
             </h2>
           </div>
@@ -189,8 +189,8 @@ export function ChapterThree() {
             viewport={{ once: true }}
             transition={{ delay: 0.6 }}
           >
-            <h4 className="text-lg text-white mb-3">Referensi Bab III:</h4>
-            <ul className="text-sm text-gray-400 space-y-2">
+                   <h4 className="text-lg text-white mb-3">Referensi Bab III:</h4>
+                   <ul className="text-sm text-gray-400 space-y-2">
               <li>Hafidz, S., & Pratama, R. (2023). Cyber Sabotage: Case Study on Industrial System Attacks. Jurnal Keamanan Siber Indonesia, 12(4), 234-256.</li>
               <li>Silalahi, D. J., & Fitriani, D. (2021). Analysis on Prevention of Cyber Sabotage in Critical Infrastructure. Thesis, Universitas Indonesia.</li>
               <li>Pranoto, E., & Wicaksana, D. (2024). Digital Forensic in Cyber Sabotage Prevention. Jurnal AI Keamanan, 9(3), 189-210.</li>
