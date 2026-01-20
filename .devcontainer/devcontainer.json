@@ -1,0 +1,13 @@
+{
+  "nama": "ixtsuki-tugaskuliah-devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+   "fitur": {
+        "ghcr.io/devcontainers/features/go:1": {
+            "versi": "1.18"
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:1": {
+            "versi": "terbaru",
+            "moby": "benar"
+        }
+    }
+}
